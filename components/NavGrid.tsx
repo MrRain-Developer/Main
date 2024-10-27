@@ -15,7 +15,7 @@ import Image from "next/image";
 
 export function NavGrid() {
   return (
-    <BentoGrid className="max-w-full mx-auto md:auto-rows-[30rem]">
+    <BentoGrid className="max-w-full mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -305,7 +305,7 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "AI Content Generation",
+    title: "Services",
     description: (
       <span className="text-sm">
         Experience the power of AI in generating unique content.
@@ -317,7 +317,7 @@ const items = [
     href: "/blog",
   },
   {
-    title: "Automated Proofreading",
+    title: "Blog",
     description: (
       <span className="text-sm">
         Let AI handle the proofreading of your documents.
@@ -329,7 +329,7 @@ const items = [
     href: "/blog",
   },
   {
-    title: "Contextual Suggestions",
+    title: "About",
     description: (
       <span className="text-sm">
         Get AI-powered suggestions based on your writing context.
