@@ -12,7 +12,8 @@ export default function Home() {
         {/* Hero Section */}
 
         <NavGrid/>
-        {/* <div >
+
+        <div >
           <div className="mb-8">
             <h3 className="text-lg">Go Digital for
               the 21st Century</h3>
@@ -32,7 +33,7 @@ export default function Home() {
             </div>
           </div>
 
-        </div> */}
+        </div>
 
 
       </header>

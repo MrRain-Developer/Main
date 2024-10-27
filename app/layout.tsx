@@ -56,7 +56,9 @@ export default function RootLayout({
       <body>
         <FloatingNavDemo />
 
-        <main className='p-20'>{children}</main>
+        <main className=' p-10 bg-white dark:bg-black'>
+         <div className='max-w-7xl mx-auto bg-white dark:bg-black'>{children}</div> 
+          </main>
 
         {/* <Footer/> */}
       </body>

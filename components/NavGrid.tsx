@@ -2,6 +2,7 @@
 import { cn } from "../lib/utils";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
+import Link from "next/link";
 import {
   IconBoxAlignRightFilled,
   IconClipboardCopy,
@@ -14,13 +15,21 @@ import Image from "next/image";
 
 export function NavGrid() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+    <BentoGrid className="max-w-full mx-auto md:auto-rows-[30rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
-          title={item.title}
+          title={
+            <Link href={item.href} className="hover:underline cursor-pointer">
+              {item.title}
+            </Link>
+          }
           description={item.description}
-          header={item.header}
+          header={
+            <Link href={item.href} className="h-full">
+              {item.header}
+            </Link>
+          }
           className={cn("[&>p:text-lg]", item.className)}
           icon={item.icon}
         />
@@ -303,8 +312,9 @@ const items = [
       </span>
     ),
     header: <SkeletonOne />,
-    className: "md:col-span-1",
+    className: "md:col-span-1 border-zinc-100 border-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    href: "/blog",
   },
   {
     title: "Automated Proofreading",
@@ -314,8 +324,9 @@ const items = [
       </span>
     ),
     header: <SkeletonTwo />,
-    className: "md:col-span-1",
+    className: "md:col-span-1 border-zinc-100 border-2",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    href: "/blog",
   },
   {
     title: "Contextual Suggestions",
@@ -325,8 +336,9 @@ const items = [
       </span>
     ),
     header: <SkeletonThree />,
-    className: "md:col-span-1",
+    className: "md:col-span-1 border-zinc-100 border-2",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    href: "/blog",
   },
   {
     title: "Sentiment Analysis",
@@ -336,10 +348,10 @@ const items = [
       </span>
     ),
     header: <SkeletonFour />,
-    className: "md:col-span-2",
+    className: "md:col-span-2 border-zinc-100 border-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    href: "/blog",
   },
-
   {
     title: "Text Summarization",
     description: (
@@ -348,7 +360,8 @@ const items = [
       </span>
     ),
     header: <SkeletonFive />,
-    className: "md:col-span-1",
+    className: "md:col-span-1 border-zinc-100 border-2",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    href: "/blog",
   },
 ];
