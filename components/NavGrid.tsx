@@ -312,7 +312,7 @@ const items = [
       </span>
     ),
     header: <SkeletonOne />,
-    className: "md:col-span-1 border-zinc-100 border-2",
+    className: "md:col-span-1 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     href: "/blog",
   },
@@ -324,7 +324,7 @@ const items = [
       </span>
     ),
     header: <SkeletonTwo />,
-    className: "md:col-span-1 border-zinc-100 border-2",
+    className: "md:col-span-1 backdrop-blur-md bg-white/40  dark:bg-black/30 border-[0.5px] border-white/20",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     href: "/blog",
   },
@@ -336,7 +336,7 @@ const items = [
       </span>
     ),
     header: <SkeletonThree />,
-    className: "md:col-span-1 border-zinc-100 border-2",
+    className: "md:col-span-1 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     href: "/blog",
   },
@@ -348,7 +348,7 @@ const items = [
       </span>
     ),
     header: <SkeletonFour />,
-    className: "md:col-span-2 border-zinc-100 border-2",
+    className: "md:col-span-2 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     href: "/blog",
   },
@@ -360,7 +360,7 @@ const items = [
       </span>
     ),
     header: <SkeletonFive />,
-    className: "md:col-span-1 border-zinc-100 border-2",
+    className: "md:col-span-1 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     href: "/blog",
   },

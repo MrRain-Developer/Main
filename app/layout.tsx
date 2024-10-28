@@ -1,9 +1,9 @@
-import './globals.css'
+import "./globals.css";
 import React from "react";
 import { FloatingNav } from "../components/ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import Footer from '../components/Footer';
-
+import Footer from "../components/Footer";
+import { EvervaultCard } from "../components/ui/evervault-card";
 
 export function FloatingNavDemo() {
   const navItems = [
@@ -42,9 +42,6 @@ const DummyContent = () => {
   );
 };
 
-
-
-
 // RootLayout component where FloatingNav is used globally
 export default function RootLayout({
   children,
@@ -56,11 +53,12 @@ export default function RootLayout({
       <body>
         <FloatingNavDemo />
 
-        <main className=' p-10 bg-white dark:bg-black'>
-         <div className='max-w-7xl mx-auto bg-white dark:bg-black'>{children}</div> 
-          </main>
+       
 
-        {/* <Footer/> */}
+          <main className=" bg-white dark:bg-black">{children}</main>
+       
+{/* 
+        <Footer/> */}
       </body>
     </html>
   );
