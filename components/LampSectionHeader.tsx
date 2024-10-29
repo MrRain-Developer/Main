@@ -2,7 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
-import { NavGrid } from "./NavGrid";
+import { NavGrid } from "../components/NavGrid";
+
+
 
 export function LampDemo() {
   return (
@@ -18,11 +20,12 @@ export function LampDemo() {
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         Build lamps <br /> the right way
-
-        <div className="max-w-7xl mx-auto bg-transparent mt-4">
-          <NavGrid/>
-          </div>
       </motion.h1>
+      
+      <div className="max-w-7xl mx-auto bg-transparent mt-4">
+        <NavGrid />
+      </div>
+      
     </LampContainer>
   );
 }
