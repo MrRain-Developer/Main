@@ -14,7 +14,7 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+  theme: { 
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",

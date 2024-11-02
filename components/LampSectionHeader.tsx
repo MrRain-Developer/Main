@@ -17,12 +17,12 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent sm:text-5xl md:text-7xl"
       >
         Build lamps <br /> the right way
       </motion.h1>
       
-      <div className="max-w-7xl mx-auto bg-transparent mt-4">
+      <div className="max-w-7xl mx-auto bg-transparent mt-4  px-4l">
         <NavGrid />
       </div>
       
