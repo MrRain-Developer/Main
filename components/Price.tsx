@@ -71,7 +71,7 @@ const pricingPlans: PricingPlan[] = [
 
 export function Price() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 place-items-center max-w-[110rem] mx-auto m-4">
             {pricingPlans.map((plan, index) => (
                 <div key={index} className="w-full max-w-sm p-4 bg-gradient-to-br from-gray-800 via-gray-900/40 to-black/20 border border-gray-400/50 rounded-2xl shadow-2xl sm:p-8 backdrop-blur-xl backdrop-filter relative overflow-hidden">
                     <div className="absolute inset-0 bg-white/5 backdrop-blur-sm rounded-2xl"></div>

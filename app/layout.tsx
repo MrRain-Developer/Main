@@ -57,8 +57,8 @@ export default function RootLayout({
 
           <main className=" bg-white dark:bg-black">{children}</main>
        
-{/* 
-        <Footer/> */}
+
+        <Footer/>
       </body>
     </html>
   );

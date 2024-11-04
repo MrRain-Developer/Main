@@ -7,6 +7,8 @@ import { MacbookScrollDemo } from "../components/MacbookScrollDemo";
 import { CompareDemo } from "../components/CompareDemo";
 import { FlipText } from "../components/FlipText";
 import { Price } from "../components/Price";
+import CallToAction from "../components/CallToAction";
+
 export default function Home() {
   return (
     <div>
@@ -32,9 +34,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-black via-teal-900 to-black p-4 ">     
+      <div className="bg-gradient-to-b from-black via-teal-900 to-black p-4">     
          <Price />
       </div>
+
+      <CallToAction />
     </div>
   );
 }

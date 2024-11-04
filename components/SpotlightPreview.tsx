@@ -11,7 +11,7 @@ export function SpotlightPreview() {
       />
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
         <h1 className="font-medium text-4xl md:text-5xl lg:text-7xl max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20 dark:via-white dark:to-white">
-          Build amazing websites <br /> at <Cover>Arfiaa Mediaa</Cover>
+          Build amazing websites <br /> with <Cover>Arfiaa Mediaa</Cover>
         </h1>
         <TypewriterEffect />
        
