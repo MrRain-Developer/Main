@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="min-h-[500vh]  md:min-h-[250vh] lg:min-h-[250vh] py-96 md:py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-gradient-to-t from-transparent  to-black dark:bg-black"
+      className="min-h-[500vh]  md:min-h-[250vh] lg:min-h-[250vh] py-96 md:py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-gradient-to-t from-transparent to-slate-950 dark:bg-black"
     >
       <Header />
       <motion.div

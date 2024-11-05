@@ -1,8 +1,11 @@
 import { SignupForm } from "../../components/SignupForm";
+import { TextHoverEffectDemo } from "../../components/TextHoverEffect";
+
 export default function Contact() {
     return (
         <div className="container mx-auto px-4 py-16 max-w-6xl">
-            <div className="text-center mb-16">
+            <TextHoverEffectDemo />
+            <div className="text-center mb-24">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
                     We've got an entire team dedicated to support you and your business
                 </h1>

@@ -20,7 +20,7 @@ export function NavGrid() {
         <BentoGridItem
           key={i}
           title={
-            <Link href={item.href} className="hover:underline cursor-pointer">
+            <Link href={item.href} className="hover:underline cursor-pointer text-neutral-300">
               {item.title}
             </Link>
           }
@@ -307,61 +307,61 @@ const items = [
   {
     title: "Services",
     description: (
-      <span className="text-sm">
+      <span className="text-sm text-neutral-300">
         Experience the power of AI in generating unique content.
       </span>
     ),
     header: <SkeletonOne />,
     className: "md:col-span-1 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    href: "/blog",
+    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-200 dark:text-neutral-500" />,
+    href: "/service",
   },
   {
     title: "Blog",
     description: (
-      <span className="text-sm">
+      <span className="text-sm text-neutral-300">
         Let AI handle the proofreading of your documents.
       </span>
     ),
     header: <SkeletonTwo />,
     className: "md:col-span-1 backdrop-blur-md bg-white/40  dark:bg-black/30 border-[0.5px] border-white/20",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-200 dark:text-neutral-500" />,
     href: "/blog",
   },
   {
     title: "About",
     description: (
-      <span className="text-sm">
+      <span className="text-sm text-neutral-300">
         Get AI-powered suggestions based on your writing context.
       </span>
     ),
     header: <SkeletonThree />,
     className: "md:col-span-1 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    icon: <IconSignature className="h-4 w-4 text-neutral-200 dark:text-neutral-500" />,
     href: "/blog",
   },
   {
     title: "Sentiment Analysis",
     description: (
-      <span className="text-sm">
+      <span className="text-sm text-neutral-300">
         Understand the sentiment of your text with AI analysis.
       </span>
     ),
     header: <SkeletonFour />,
     className: "md:col-span-2 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-200 dark:text-neutral-500" />,
     href: "/blog",
   },
   {
     title: "Text Summarization",
     description: (
-      <span className="text-sm">
+      <span className="text-sm text-neutral-300">
         Summarize your lengthy documents with AI technology.
       </span>
     ),
     header: <SkeletonFive />,
     className: "md:col-span-1 backdrop-blur-md bg-white/40 dark:bg-black/30 border-[0.5px] border-white/20",
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-200 dark:text-neutral-500" />,
     href: "/blog",
   },
 ];
