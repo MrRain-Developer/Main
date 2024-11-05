@@ -8,6 +8,7 @@ import {
   IconBrandGoogle,
   IconBrandOnlyfans,
 } from "@tabler/icons-react";
+import { style } from "framer-motion/client";
 
 export function SignupForm() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -118,3 +119,4 @@ const LabelInputContainer = ({
     </div>
   );
 };
+
