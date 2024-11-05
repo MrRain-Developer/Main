@@ -21,17 +21,16 @@ export default function Page() {
       <div className="w-full h-[30rem] bg-gray-500"></div>
 
       <Content />
+      <div className="max-w-screen-lg mx-auto">
+        <div className="grid grid-cols-2 gap-4 m-4">
+          <div className="border border-gray-300 rounded-lg p-4 shadow-lg">
+            <LinkPreviewOne />
+          </div>
 
-      <div className="grid grid-cols-2 px-20 gap-4 m-4">
-
-        <div className="border border-gray-300 rounded-lg p-4 shadow-lg">
-          <LinkPreviewOne />
+          <div className="border border-gray-300 rounded-lg p-4 shadow-lg">
+            <LinkPreviewTwo />
+          </div>
         </div>
-
-        <div className="border border-gray-300 rounded-lg p-4 shadow-lg">
-          <LinkPreviewTwo />
-        </div>
-
       </div>
 
     </div>
