@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Service() {
     return (
         <div className="min-h-screen bg-gray-100">
           

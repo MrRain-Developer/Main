@@ -3,7 +3,7 @@ import { LinkPreviewOne } from "../../components/LinkPreview";
 import { LinkPreviewTwo } from "../../components/LinkPreview";
 
 // `app/page.tsx` is the UI for the `/` URL
-export default function Page() {
+export default function Blog() {
   return (
     <div className="text-zinc-100">
       <div className="max-w-screen-md mx-auto p-4 md:py-8">

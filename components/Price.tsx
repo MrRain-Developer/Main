@@ -60,7 +60,7 @@ const pricingPlans: PricingPlan[] = [
             { text: "2 team members", included: true },
             { text: "20GB Cloud storage", included: true },
             { text: "Integration help", included: true },
-            { text: "Sketch Files", included: false },
+            { text: "Sketch Files", included: true },
             { text: "API Access", included: false },
             { text: "Complete documentation", included: false },
             { text: "24×7 phone & email support", included: false },
