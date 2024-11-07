@@ -38,7 +38,8 @@ export default function Blog() {
       </div>
 
       <Content />
-      <div className="max-w-screen-lg mx-auto">
+
+      <div className="max-w-screen-lg mx-auto pt-16">
         <div className="grid grid-cols-2 gap-4 ">
           <div className="border border-gray-300 rounded-lg p-4 shadow-lg">
             <LinkPreviewOne />
