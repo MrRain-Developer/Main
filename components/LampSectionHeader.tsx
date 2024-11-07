@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
-import { NavGrid } from "../components/NavGrid";
 
 
 
@@ -22,9 +21,7 @@ export function LampDemo() {
         Build lamps <br /> the right way
       </motion.h1>
       
-      <div className="max-w-7xl mx-auto bg-transparent mt-4  px-4l">
-        <NavGrid />
-      </div>
+      
       
     </LampContainer>
   );

@@ -8,6 +8,9 @@ import { CompareDemo } from "../components/CompareDemo";
 import { FlipText } from "../components/FlipText";
 import { Price } from "../components/Price";
 import CallToAction from "../components/CallToAction";
+import { NavGrid } from "../components/NavGrid";
+import { motion } from "framer-motion";
+import { ScrollBlur } from "../components/ScrollBlur";
 
 export default function Home() {
   return (
@@ -17,10 +20,20 @@ export default function Home() {
         <SpotlightPreview />
       </header>
 
-      <LampDemo />
+      {/* <LampDemo /> */}
+
+      <div className="bg-[#0c343c]">
+        <div className="bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent sm:text-5xl md:text-7xl">
+          Build lamps <br /> the right way
+        </div>
+        <div className="max-w-7xl mx-auto bg-transparent mt-4  px-4l">
+          <NavGrid />
+        </div>
+      </div>
 
       <ScrollParallax />
-      <MacbookScrollDemo />
+      {/* <MacbookScrollDemo /> */}
+      <ScrollBlur/>
       <StickyScrollReveal />
 
       <div className="bg-black">
@@ -34,8 +47,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-black via-teal-900 to-black p-4">     
-         <Price />
+      <div className="bg-gradient-to-b from-black via-teal-900 to-black p-4">
+        <Price />
       </div>
 
       <CallToAction />

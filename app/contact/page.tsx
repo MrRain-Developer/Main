@@ -4,7 +4,7 @@ import { TextHoverEffectDemo } from "../../components/TextHoverEffect";
 
 export default function Contact() {
   return (
-    <div className="bg-zinc-100 dark:bg-slate-950">
+    <div className="bg-zinc-100 dark:bg-[#0c343c]">
       <div className="container mx-auto px-4 py-16 max-w-6xl ">
         <TextHoverEffectDemo />
         <div className="text-center mb-24">
