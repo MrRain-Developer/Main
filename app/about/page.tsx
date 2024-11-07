@@ -6,7 +6,7 @@ export default function AboutUs() {
         <>
             <TextHoverEffectDemo />
 
-            <div className="bg-zinc-100 dark:bg-gradient-to-t from-slate-950 via-slate-800 to-slate-950 text-white min-h-screen flex items-center justify-center font-sans">
+            <div className="bg-zinc-100 dark:bg-gradient-to-t from-[#0c343c] via-emerald-900 to-[#0c343c] text-white min-h-screen flex items-center justify-center font-sans">
                 <div className="container mx-auto px-6 py-12">
                     <div className="max-w-4xl mx-auto glass p-8 rounded-lg  text-center">
                         <h1 className="text-4xl font-bold text-black dark:text-white mb-4">About Us</h1>

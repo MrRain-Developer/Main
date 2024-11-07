@@ -4,7 +4,7 @@ import Link from "next/link";
 export function TextHoverEffectDemo() {
   return (
     <Link href="/">
-    <div className="h-[20rem] flex items-center justify-center bg-zinc-100 dark:bg-slate-950">
+    <div className="h-[20rem] flex items-center justify-center bg-zinc-100 dark:bg-[#0c343c]">
       <TextHoverEffect text="ARFIAA MEDIA" />
     </div>
     </Link>
